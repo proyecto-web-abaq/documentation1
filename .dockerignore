@@ -1,0 +1,15 @@
+.git
+.github
+.venv
+.cache
+site
+archivo-privado
+__pycache__
+.agents
+.claude
+.kiro
+.DS_Store
+**/.DS_Store
+*.textClipping
+reports/**/*.pdf
+reports/**/*.docx
