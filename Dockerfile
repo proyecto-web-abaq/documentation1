@@ -19,5 +19,5 @@ COPY --from=builder /app/site /usr/share/nginx/html
 ENV PORT=8080
 EXPOSE 8080
 
-# Genera la configuración de nginx escuchando en 0.0.0.0:$PORT (sin depender de sed ni IPv6)
-CMD ["sh", "-c", "printf 'server {\n  listen 0.0.0.0:%s;\n  root /usr/share/nginx/html;\n  index index.html;\n  location / {\n    try_files $uri $uri/ =404;\n  }\n}\n' \"${PORT:-8080}\" > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"]
+RUN mkdir -p /etc/nginx/templates && \
+    printf 'server {\n    listen 0.0.0.0:${PORT};\n    root /usr/share/nginx/html;\n    index index.html;\n\n    location / {\n        try_files $uri $uri/ =404;\n    }\n}\n' > /etc/nginx/templates/default.conf.template
