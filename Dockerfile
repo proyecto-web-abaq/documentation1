@@ -5,13 +5,12 @@ WORKDIR /app
 # Instalar uv para manejar dependencias rápidamente
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
-# Copiar archivos de configuración del proyecto e instalar dependencias
-COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev
+# Instalar zensical directamente (pyproject.toml y uv.lock no están en el repo)
+RUN uv pip install --system --no-cache "zensical>=0.0.57"
 
 # Copiar el código fuente y construir el sitio estático con Zensical
 COPY . .
-RUN uv run zensical build --clean
+RUN zensical build --clean
 
 FROM nginx:alpine
 
