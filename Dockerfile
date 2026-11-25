@@ -19,5 +19,5 @@ COPY --from=builder /app/site /usr/share/nginx/html
 ENV PORT=8080
 EXPOSE 8080
 
-# Railway asigna el puerto dinámicamente en $PORT
-CMD ["sh", "-c", "sed -i \"s/80;/${PORT:-8080};/g\" /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"]
+# Genera la configuración de nginx escuchando en 0.0.0.0:$PORT (sin depender de sed ni IPv6)
+CMD ["sh", "-c", "printf 'server {\n  listen 0.0.0.0:%s;\n  root /usr/share/nginx/html;\n  index index.html;\n  location / {\n    try_files $uri $uri/ =404;\n  }\n}\n' \"${PORT:-8080}\" > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"]
