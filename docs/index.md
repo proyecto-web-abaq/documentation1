@@ -54,22 +54,13 @@ hide:
 
     [:octicons-arrow-right-24: Consultar el manual](guias/usuario/manual-voluntario-general.md)
 
--   :lucide-shield-check:{ .lg .middle } __[Manual para Administrador](guias/administrador/manual-administrador.md)__
+-   :lucide-list-checks:{ .lg .middle } __[Organizador ABAQ — Manual del Colaborador](organizador-abaq/manual-colaborador.md)__
 
     ---
 
-    Dirigido al personal de la Coordinación de Voluntariado: expedientes, convocatorias, asistencias, pláticas, campañas, adopciones, placas, respaldos y notificaciones.
+    Dirigido a las personas que atienden las tareas de la asociación: activación de la cuenta, tareas asignadas, comentarios y notificaciones.
 
-    [:octicons-arrow-right-24: Consultar el manual](guias/administrador/manual-administrador.md)
-
--   :lucide-list-checks:{ .lg .middle } __Organizador ABAQ__
-
-    ---
-
-    Dirigido a las personas que asignan y atienden las tareas de la asociación:
-
-    * **[Manual del Colaborador](organizador-abaq/manual-colaborador.md)**: activación de la cuenta, tareas asignadas, comentarios y notificaciones.
-    * **[Manual del Administrador](organizador-abaq/manual-administrador.md)**: usuarios, tareas, tablero Kanban, estadísticas e historial de actividad.
+    [:octicons-arrow-right-24: Consultar el manual](organizador-abaq/manual-colaborador.md)
 
 </div>
 
@@ -81,8 +72,6 @@ hide:
 |---|---|
 | Estudiante que realiza su servicio social en ABAQ | [Manual para Voluntario de Servicio Social](guias/usuario/manual-servicio-social.md) |
 | Voluntario sin requisito de horas escolares | [Manual para Voluntario General](guias/usuario/manual-voluntario-general.md) |
-| Personal de la Coordinación de Voluntariado | [Manual para Administrador](guias/administrador/manual-administrador.md) |
 | Colaborador con tareas asignadas en el Organizador ABAQ | [Manual del Colaborador](organizador-abaq/manual-colaborador.md) |
-| Administrador del Organizador ABAQ | [Manual del Administrador](organizador-abaq/manual-administrador.md) |
 
 Si tiene dudas sobre la modalidad que le corresponde en la Plataforma ABAQ, consulte el [Manual de Usuario](guias/usuario/index.md), que explica las diferencias entre Servicio Social y Voluntariado General.

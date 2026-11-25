@@ -18,14 +18,10 @@ nav = [
       { "Manual de usuario" = "guias/usuario/index.md" },
       { "Manual para Voluntario de Servicio Social" = "guias/usuario/manual-servicio-social.md" },
       { "Manual para Voluntario General" = "guias/usuario/manual-voluntario-general.md" }
-    ]},
-    { "Administrador" = [
-      { "Manual para Administrador" = "guias/administrador/manual-administrador.md" }
     ]}
   ]},
   { "Organizador ABAQ" = [
-    { "Manual del Colaborador" = "organizador-abaq/manual-colaborador.md" },
-    { "Manual del Administrador" = "organizador-abaq/manual-administrador.md" }
+    { "Manual del Colaborador" = "organizador-abaq/manual-colaborador.md" }
   ]}
 ]
 
