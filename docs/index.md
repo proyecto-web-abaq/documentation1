@@ -17,13 +17,13 @@ hide:
   </h1>
 
   <p style="color: #e2e8f0; font-size: 1.1rem; line-height: 1.55; max-width: 820px; margin: 0 0 24px 0; font-weight: 400;">
-    Guías paso a paso para utilizar la Plataforma ABAQ, destinada a la gestión del servicio social y del voluntariado, y el Organizador ABAQ, destinado a la asignación y el seguimiento de las tareas de la asociación.
+    Guías paso a paso para utilizar MiPortal ABAQ, destinada a la gestión del servicio social y del voluntariado, y el Organizador ABAQ, destinado a la asignación y el seguimiento de las tareas de la asociación.
   </p>
 
   <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="guias/index.md" style="display: inline-flex; align-items: center; gap: 6px; background: #7bbf4f; color: #14350c; font-weight: 750; font-size: 0.88rem; padding: 8px 16px; border-radius: 8px; text-decoration: none; transition: transform 0.15s ease;">
       <span>📖</span>
-      <span>Manuales de la plataforma</span>
+      <span>MiPortal ABAQ</span>
     </a>
     <a href="organizador-abaq/manual-colaborador.md" style="display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.12); color: #ffffff; font-weight: 650; font-size: 0.88rem; padding: 8px 16px; border-radius: 8px; text-decoration: none; border: 1px solid rgba(255, 255, 255, 0.22);">
       <span>📋</span>
@@ -74,4 +74,4 @@ hide:
 | Voluntario sin requisito de horas escolares | [Manual para Voluntario General](guias/usuario/manual-voluntario-general.md) |
 | Colaborador con tareas asignadas en el Organizador ABAQ | [Manual del Colaborador](organizador-abaq/manual-colaborador.md) |
 
-Si tiene dudas sobre la modalidad que le corresponde en la Plataforma ABAQ, consulte el [Manual de Usuario](guias/usuario/index.md), que explica las diferencias entre Servicio Social y Voluntariado General.
+Si tiene dudas sobre la modalidad que le corresponde en MiPortal ABAQ, consulte el [Manual de Usuario](guias/usuario/index.md), que explica las diferencias entre Servicio Social y Voluntariado General.

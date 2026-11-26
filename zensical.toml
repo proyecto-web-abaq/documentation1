@@ -1,7 +1,7 @@
 [project]
 site_name = "ABAQ — Documentación"
 site_url = "https://proyecto-web-abaq.github.io/documentation1/"
-site_description = "Manuales de usuario de la Plataforma ABAQ y del Organizador ABAQ."
+site_description = "Manuales de usuario de MiPortal ABAQ y del Organizador ABAQ."
 site_author = "Equipo de Desarrollo ABAQ"
 
 copyright = "Copyright &copy; 2026 ABAQ"
@@ -12,7 +12,7 @@ edit_uri = "edit/dev/docs/"
 
 nav = [
   { "Inicio" = "index.md" },
-  { "Manuales de la plataforma" = [
+  { "MiPortal ABAQ" = [
     { "Índice" = "guias/index.md" },
     { "Usuario" = [
       { "Manual de usuario" = "guias/usuario/index.md" },
